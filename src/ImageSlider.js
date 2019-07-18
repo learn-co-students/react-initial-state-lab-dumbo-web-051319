@@ -3,8 +3,8 @@ import React from 'react';
 
 class ImageSlider extends React.Component {
 
-  constructor(props){
-    super(props)
+  constructor(){
+    super()
     this.state = {
       currentSlideIndex: 0
     }
